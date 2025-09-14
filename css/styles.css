@@ -1,0 +1,181 @@
+/* Fonts */
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v20-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v20-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-brand-blue: #2b7fff;
+  --color-primary-dark: #000000;
+  --color-primary-light: #011c44;
+  --color-light: #ffffff;
+  --color-copyright: #747272;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.22;
+}
+ul {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+
+/* Link Section */
+.link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  font-size: 18px;
+}
+.link .accent {
+  color: var(--color-brand-blue);
+}
+.link-footer {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 18px;
+}
+.link-footer:hover {
+  color: var(--color-brand-blue);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--color-brand-blue);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Button */
+.button-call {
+  color: var(--color-light);
+  background-color: var(--color-brand-blue);
+  border: solid 2px var(--color-brand-blue);
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.button-call:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-brand-dark);
+  font-size: 18px;
+}
+.hero-title-uppercase {
+  font-family: "Play", sans-serif;
+  color: var(--color-brand-blue);
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+}
+.hero-action {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Service section */
+.service-title {
+  font-family: "Play", sans-serif;
+  font-style: bold;
+  font-size: 64px;
+  font-weight: 700;
+}
+.service-title .accent {
+  color: var(--color-brand-blue);
+  text-transform: capitalize;
+}
+.service-list {
+  line-height: 1.72;
+}
+.service-list .accent {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* Advantages section */
+.advantages-title {
+  font-family: "Play", sans-serif;
+  font-style: bold;
+  font-size: 64px;
+  font-weight: 700;
+}
+.advantages-title .accent {
+  color: var(--color-brand-blue);
+}
+.advantages-list {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+/* Procedures section */
+.procedures-title {
+  font-family: "Play", sans-serif;
+  font-style: bold;
+  font-size: 64px;
+  font-weight: 700;
+}
+.procedures-title .accent {
+  color: var(--color-brand-blue);
+}
+
+/* Adress section */
+.adress-title {
+  font-family: "Play", sans-serif;
+  font-style: bold;
+  font-size: 64px;
+  font-weight: 700;
+}
+.adress-title .accent {
+  color: var(--color-brand-blue);
+}
+.adress-list {
+  font-weight: 600;
+}
+.adress-list .accent {
+  color: var(--color-brand-blue);
+}
+.adress-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--color-light);
+}
+.adress-link:hover {
+  text-decoration: none;
+  color: var(--color-brand-blue);
+}
+
+.privacy-policy {
+  color: var(--color-light);
+  font-size: 16px;
+}
+
+/* Copyright */
+.copyright {
+  color: var(--color-copyright);
+  font-size: 13px;
+  font-weight: 400;
+}
